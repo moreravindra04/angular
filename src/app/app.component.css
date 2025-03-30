@@ -1,0 +1,39 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.sidenav-container {
+  flex: 1;
+  margin-top: 64px; /* Height of toolbar */
+}
+
+.sidenav {
+  width: 250px;
+  padding-top: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.nav-item-text {
+  margin-left: 10px;
+}
+
+.active-link {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+mat-icon {
+  margin-right: 8px;
+}

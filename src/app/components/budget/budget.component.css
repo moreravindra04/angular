@@ -1,0 +1,35 @@
+.budget-container {
+  padding: 16px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #3f51b5;
+}
+
+.budget-cards {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.budget-summary-card {
+  width: 100%;
+}
+
+.budget-details-card {
+  width: 100%;
+}
+
+.budget-table {
+  width: 100%;
+}
+
+.budget-progress {
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: #3f51b5;
+}
